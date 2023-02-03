@@ -1,0 +1,9 @@
+type KFOOD @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  addr: String
+  cusn: String
+  dsc: String
+  menu: String
+  img: AWSURL
+}

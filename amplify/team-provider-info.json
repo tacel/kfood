@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kfood-staging-65727-authRole",
+      "UnauthRoleArn": "arn:aws:iam::504225916132:role/amplify-kfood-staging-65727-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::504225916132:role/amplify-kfood-staging-65727-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-kfood-staging-65727-deployment",
+      "UnauthRoleName": "amplify-kfood-staging-65727-unauthRole",
+      "StackName": "amplify-kfood-staging-65727",
+      "StackId": "arn:aws:cloudformation:us-east-1:504225916132:stack/amplify-kfood-staging-65727/31834c00-9fa2-11ed-b21b-0ec41172962f",
+      "AmplifyAppId": "d1d0ak96jsydhz"
+    },
+    "categories": {
+      "auth": {
+        "kfood": {}
+      },
+      "api": {
+        "kfood": {}
+      },
+      "storage": {
+        "webapp": {}
+      }
+    }
+  }
+}
