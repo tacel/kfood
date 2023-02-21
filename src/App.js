@@ -22,8 +22,8 @@ import {
      onClick:()=> setSelected(item)
 })}/>
  */
-ItemCardCollection,
- Details
+SernamesCollection,
+ Detail
 
 } from './ui-components';
 
@@ -41,12 +41,12 @@ function App() {
      
 <View >
 
-<ItemCardCollection  overrideItems={({item})=>({
+<SernamesCollection  overrideItems={({item})=>({
      onClick:()=> setSelected(item)
 })}/>
 </View>
-<Flex position="relative" overflow="hidden" glow={1}/>
-{selected ? <Details   kFOOD={selected} />: <Details />}
+<Flex position="relative" overflow="hidden" glow={1} direction="column"/>
+{selected ? <Detail   kFOOD={selected} />: <Detail />}
         </Flex>
 
      
